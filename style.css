@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto", sans-serif;
+  max-width: 1500px;
+  background: lightblue;
+  margin: 0 auto;
+}
+.img {
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.video {
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+  aspect-ratio: 16 / 9;
+}
+.text {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.title {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+}
+.title_title {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+input {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.btn-pink {
+  background: pink;
+  border: none;
+  color: black;
+  height: 30px;
+  margin-top: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  border: 0px;
+}
+.btn-pink:hover {
+  background: lightpink;
+  color: white;
+  border: 0px;
+}
+.row {
+  align-items: center;
+  margin-bottom: 40px;
+}
+.drama-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: #f9f9f9;
+}
+.drama-card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+.header {
+  display: flex;
+  margin-bottom: 10px;
+}
+.footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #333;
+  font-weight: 150;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
